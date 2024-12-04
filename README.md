@@ -16,18 +16,3 @@ nums = [15, 42, 7, 89, 33]
 print("The largest number is:", find_largest(nums))
 
 
-# Program to find the largest number in a list
-
-# Function to find the largest number
-def find_largest(numbers):
-    largest = numbers[0]
-    for num in numbers:
-        if num > largest:
-            largest = num
-    return largest
-
-# List of numbers
-number_list = [15, 42, 7, 89, 33]  # Renamed from 'nums'
-
-# Find and display the largest number
-print("Out of the list, the largest number is:", find_largest(number_list))  # Modified message
